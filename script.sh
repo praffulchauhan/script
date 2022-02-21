@@ -4,7 +4,7 @@ read username
 echo "Enter password"
 read password
 
-if [[ ( $username == "admin" && $password == "secret" ) ]]; then
+if [[ ( $username == "prafful" && $password == "chauhan" ) ]]; then
 echo "valid user"
 else
 echo "invalid user"

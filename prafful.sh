@@ -1,4 +1,10 @@
-#!/usr/bin/bash
-sudo useradd praffulchauhan
-sudo groupadd prafful
-
+#!/bin/bash
+echo -n "Enter directory name ->"
+read dir
+if [ -d "$dir" ]
+then
+echo "Directory exists"
+else
+`mkdir $dir`
+echo "Directory created"
+fi
